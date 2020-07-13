@@ -1,0 +1,25 @@
+// GET ALL USERS
+GET http://localhost:8001/users
+
+// REGISTER NEW USER
+###
+
+// Create new User
+POST http://localhost:8001/users
+Content-Type: application/json
+
+{
+    "username":"Ellie4",
+    "password":"password"
+}
+
+###
+
+//Logging in
+POST http://localhost:8001/login
+Content-Type: application/json
+
+{
+    "username":"Ellie4",
+    "password":"password"
+}
